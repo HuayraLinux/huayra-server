@@ -1,0 +1,16 @@
+Source: huayra-server
+Section: admin
+Priority: extra
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://huayra.conectarigualdad.gob.ar
+
+Package: huayra-server-mini
+Architecture: all
+Depends: ${misc:Depends},
+Description: Version minima de servidor Huayra para Conectar Igualdad
+ Este meta-paquete instala las aplicaciones necesarias para tener
+ un entorno minimo de Servidor para el programa Conectar Igualdad.
+ Dummy Package.
+
