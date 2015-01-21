@@ -2,6 +2,6 @@ huayra-server for Debian
 -------------------------------
 
 Este paquete solamente contiene dependencias hacia otros paquetes
-para construir un servidor basando en Huayra.
+para construir un servidor basado en Huayra.
 
  -- Huayra dev-team <equipohuayra@gmail.com>  Fri, 17 Aug 2012 18:15:31 -0300

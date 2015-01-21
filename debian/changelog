@@ -1,3 +1,9 @@
+huayra-server (0.2) unstable; urgency=medium
+
+  * se agrega paquete virtual para huayra-tec
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 21 Jan 2015 10:48:22 -0300
+
 huayra-server (0.1) testing; urgency=low
 
   * Initial release.
