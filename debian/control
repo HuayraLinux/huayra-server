@@ -11,7 +11,7 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Version minima de servidor Huayra para Conectar Igualdad
  Este meta-paquete instala las aplicaciones necesarias para tener
- un entorno minimo de Servidor para el programa Conectar Igualdad.
+ un entorno mínimo de Servidor para el programa Conectar Igualdad.
  Dummy Package.
 
 Package: huayra-server-tec
@@ -19,6 +19,22 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Version de servidor Huayra-TEC para escuelas tecnicas
  Este meta-paquete instala las aplicaciones necesarias para tener
- un entorno de la version servidor Huayra-TEC del programa Conectar Igualdad.
+ un entorno de la versión servidor Huayra-TEC del programa Conectar Igualdad.
+ Dummy Package.
+
+Package: huayra-server-base
+Architecture: all
+Depends: ${misc:Depends},
+Description: Version de servidor Huayra. Paquete base
+ Este meta-paquete instala las aplicaciones necesarias para tener
+ un entorno de la versión servidor Huayra del programa Conectar Igualdad.
+ Dummy Package.
+
+Package: huayra-server-common
+Architecture: all
+Depends: ${misc:Depends},
+Description: Version de servidor Huayra. Paquete de archivos comunes
+ Este meta-paquete instala las aplicaciones comunes para tener
+ un entorno de la versión servidor Huayra del programa Conectar Igualdad.
  Dummy Package.
 

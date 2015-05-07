@@ -1,3 +1,9 @@
+huayra-server (0.3) unstable; urgency=medium
+
+  * Se agrega paquete common y server base
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 07 May 2015 13:52:14 -0300
+
 huayra-server (0.2) unstable; urgency=medium
 
   * se agrega paquete virtual para huayra-tec
