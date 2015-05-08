@@ -1,3 +1,11 @@
+huayra-server (0.4) unstable; urgency=medium
+
+  * Reorganizando los paquetes para server
+  * Se agregan paquetes common y aplicaciones (consola y x11)
+  * Se agrega paquete para versión con Mate como GUI
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 08 May 2015 12:59:14 -0300
+
 huayra-server (0.3) unstable; urgency=medium
 
   * Se agrega paquete common y server base
