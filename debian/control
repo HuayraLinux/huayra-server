@@ -16,7 +16,7 @@ Description: Version minima de servidor Huayra para Conectar Igualdad
 
 Package: huayra-server-tec
 Architecture: all
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, huayra-server-common
 Description: Version de servidor Huayra-TEC para escuelas tecnicas
  Este meta-paquete instala las aplicaciones necesarias para tener
  un entorno de la versión servidor Huayra-TEC del programa Conectar Igualdad.
@@ -24,7 +24,7 @@ Description: Version de servidor Huayra-TEC para escuelas tecnicas
 
 Package: huayra-server-base
 Architecture: all
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, huayra-server-common
 Description: Version de servidor Huayra. Paquete base
  Este meta-paquete instala las aplicaciones necesarias para tener
  un entorno de la versión servidor Huayra del programa Conectar Igualdad.
@@ -32,9 +32,41 @@ Description: Version de servidor Huayra. Paquete base
 
 Package: huayra-server-common
 Architecture: all
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, locales, dconf-tools, gawk, iptables-persistent,
+ ntp, ppp, ssh, sudo, modemmanager, mobile-broadband-provider-info,
+ network-manager, cups, dnsmasq, acpi-support
 Description: Version de servidor Huayra. Paquete de archivos comunes
  Este meta-paquete instala las aplicaciones comunes para tener
  un entorno de la versión servidor Huayra del programa Conectar Igualdad.
+ Dummy Package.
+
+Package: huayra-server-mate
+Architecture: all
+Provides: huayra-server-gui
+Depends: ${misc:Depends}, huayra-server-common, mate-core, mate-utils,
+ mate-system-tools, mate-desktop-environment-core, xserver-xorg,
+ xserver-xorg-video-all, conky-std, www-browser | chromium-l10n,
+ caja-open-terminal
+Description: Version de servidor Huayra. Con escritorio Mate
+ Este meta-paquete instala las aplicaciones necesarias para tener
+ un entorno de la versión servidor Huayra del programa Conectar Igualdad
+ con Mate como escritorio gráfico.
+ Dummy Package.
+
+Package: huayra-server-apps-console
+Architecture: all
+Depends: ${misc:Depends}, curl, less, mc, nmap, rfkill, telnet, vim, wget
+Description: Aplicaciones de consola para el servidor Huayra
+ Este meta-paquete instala las aplicaciones de consola para el 
+ servidor Huayra.
+ Dummy Package.
+
+Package: huayra-server-apps-x11
+Architecture: all
+Depends: ${misc:Depends}, huayra-server-gui, wireshark, x11vnc, xchat, 
+ network-manager-gnome
+Description: Aplicaciones gráficas para el servidor Huayra
+ Este meta-paquete instala las aplicaciones gráficas (x11) para el 
+ servidor Huayra.
  Dummy Package.
 
